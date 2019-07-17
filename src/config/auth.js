@@ -1,4 +1,4 @@
 module.exports = {
-  secret: 'Challenge-Marketplace',
+  secret: process.env.APP_SECRET,
   ttl: 86400
 }
